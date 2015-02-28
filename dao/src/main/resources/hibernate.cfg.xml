@@ -17,5 +17,19 @@
         <mapping class="com.levelup.model.Customer" />
         <mapping class="com.levelup.model.Transaction" />
 
+        <mapping class="com.levelup.inh_joined.Car2" />
+        <mapping class="com.levelup.inh_joined.HatchCar2" />
+        <mapping class="com.levelup.inh_joined.SedanCar2" />
+
+        <mapping class="com.levelup.inh_single_table.Car1" />
+        <mapping class="com.levelup.inh_single_table.HatchCar1" />
+        <mapping class="com.levelup.inh_single_table.SedanCar1" />
+
+
+        <mapping class="com.levelup.inh_table_per_class.Car" />
+        <mapping class="com.levelup.inh_table_per_class.HatchCar" />
+        <mapping class="com.levelup.inh_table_per_class.SedanCar" />
+
+
     </session-factory>
 </hibernate-configuration>
